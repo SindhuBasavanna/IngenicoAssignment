@@ -32,9 +32,9 @@ public class TransactionController {
 	}
 
 	//This method is used to simulate real multithreaded environment testing.
-		@RequestMapping(method = RequestMethod.GET, value = "/tested")
+		/*@RequestMapping(method = RequestMethod.GET, value = "/tested")
 	public String testMultithreading()
 			throws AccountNotFoundException {
 		return transactionService.testMultithreading();
-	}
+	}*/
 }

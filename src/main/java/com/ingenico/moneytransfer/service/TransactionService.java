@@ -106,7 +106,7 @@ public class TransactionService {
 
 	//Method to simulate real multithreading environment, where more than one request can arrive from same resource.
 	//Two threads are created each sending 25 request to transfer money simultaneously. 
-	public String testMultithreading() {
+	/*public String testMultithreading() {
 
 		Thread t1 = new Thread() {
 			public void run() {
@@ -160,5 +160,5 @@ public class TransactionService {
 				+ (accountRepository.getBalanceById(1001) + accountRepository
 						.getBalanceById(1002));
 
-	}
+	}*/
 }
